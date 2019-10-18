@@ -1,0 +1,5 @@
+= Dummybeat Docs
+
+Welcome to the Dummybeat documentation.
+
+
