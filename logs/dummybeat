@@ -1,0 +1,49 @@
+2019-10-21T17:39:23.478+0530	INFO	instance/beat.go:632	Home path: [D:\go-work\src\github.com\JUNAID-KT\dummybeat] Config path: [D:\go-work\src\github.com\JUNAID-KT\dummybeat] Data path: [D:\go-work\src\github.com\JUNAID-KT\dummybeat\data] Logs path: [D:\go-work\src\github.com\JUNAID-KT\dummybeat\logs]
+2019-10-21T17:39:23.480+0530	INFO	instance/beat.go:640	Beat ID: 507c4802-b5a4-4f9f-9d34-c332b84d3bd3
+2019-10-21T17:39:23.537+0530	INFO	[beat]	instance/beat.go:928	Beat info	{"system_info": {"beat": {"path": {"config": "D:\\go-work\\src\\github.com\\JUNAID-KT\\dummybeat", "data": "D:\\go-work\\src\\github.com\\JUNAID-KT\\dummybeat\\data", "home": "D:\\go-work\\src\\github.com\\JUNAID-KT\\dummybeat", "logs": "D:\\go-work\\src\\github.com\\JUNAID-KT\\dummybeat\\logs"}, "type": "dummybeat", "uuid": "507c4802-b5a4-4f9f-9d34-c332b84d3bd3"}}}
+2019-10-21T17:39:23.538+0530	INFO	[beat]	instance/beat.go:937	Build info	{"system_info": {"build": {"commit": "e2b629af6a44925b7a3aa011e9eec62e2b4e7a43", "libbeat": "8.0.0", "time": "2019-10-21T12:05:35.000Z", "version": "8.0.0"}}}
+2019-10-21T17:39:23.538+0530	INFO	[beat]	instance/beat.go:940	Go runtime info	{"system_info": {"go": {"os":"windows","arch":"amd64","max_procs":8,"version":"go1.13.1"}}}
+2019-10-21T17:39:23.539+0530	INFO	add_cloud_metadata/add_cloud_metadata.go:89	add_cloud_metadata: hosting provider type not detected.
+2019-10-21T17:39:23.587+0530	INFO	[beat]	instance/beat.go:944	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2019-10-21T09:34:11.21+05:30","name":"BFC009","ip":["fe80::3012:9e:d108:66ef/64","169.254.102.239/16","fe80::7cb3:251c:6fd0:c1f5/64","169.254.193.245/16","10.0.75.1/28","fe80::e917:39d4:e9c8:a7c5/64","169.254.167.197/16","fe80::8de8:e896:5131:9748/64","169.254.151.72/16","fe80::d5a1:2ea1:441:4d6d/64","192.168.10.74/24","fe80::85a5:9263:7033:8ec4/64","169.254.142.196/16","::1/128","127.0.0.1/8","fe80::d940:ca0d:8310:b999/64","172.17.116.129/28"],"kernel_version":"10.0.18362.418 (WinBuild.160101.0800)","mac":["00:ff:33:b2:c0:1b","3c:2c:30:cb:e4:59","00:15:5d:4b:01:01","0e:96:e6:41:54:cb","1e:96:e6:41:54:cb","0c:96:e6:41:54:cb","0c:96:e6:41:54:cc","00:15:5d:0c:b5:17"],"os":{"family":"windows","platform":"windows","name":"Windows 10 Pro","version":"10.0","major":10,"minor":0,"patch":0,"build":"18362.418"},"timezone":"IST","timezone_offset_sec":19800,"id":"f26e62e9-9ac4-4ea8-8866-30a8d69f5da4"}}}
+2019-10-21T17:39:23.591+0530	INFO	[beat]	instance/beat.go:973	Process info	{"system_info": {"process": {"cwd": "D:\\go-work\\src\\github.com\\JUNAID-KT\\dummybeat", "exe": "D:\\go-work\\src\\github.com\\JUNAID-KT\\dummybeat\\dummybeat.exe", "name": "dummybeat.exe", "pid": 20424, "ppid": 4208, "start_time": "2019-10-21T17:39:20.827+0530"}}}
+2019-10-21T17:39:23.591+0530	INFO	instance/beat.go:292	Setup Beat: dummybeat; Version: 8.0.0
+2019-10-21T17:39:23.591+0530	INFO	[index-management]	idxmgmt/std.go:178	Set output.elasticsearch.index to 'dummybeat-8.0.0' as ILM is enabled.
+2019-10-21T17:39:23.591+0530	INFO	elasticsearch/client.go:170	Elasticsearch url: http://localhost:9200
+2019-10-21T17:39:23.591+0530	INFO	[publisher]	pipeline/module.go:97	Beat name: BFC009
+2019-10-21T17:39:23.591+0530	INFO	instance/beat.go:451	dummybeat start running.
+2019-10-21T17:39:23.591+0530	INFO	beater/dummybeat.go:54	dummybeat is running! Hit CTRL-C to stop it.
+2019-10-21T17:39:23.591+0530	INFO	[monitoring]	log/log.go:118	Starting metrics logging every 30s
+2019-10-21T17:39:24.591+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:25.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:25.592+0530	INFO	pipeline/output.go:95	Connecting to backoff(elasticsearch(http://localhost:9200))
+2019-10-21T17:39:25.609+0530	INFO	elasticsearch/client.go:745	Attempting to connect to Elasticsearch version 6.6.1
+2019-10-21T17:39:25.615+0530	INFO	template/load.go:89	Template dummybeat-8.0.0 already exists and will not be overwritten.
+2019-10-21T17:39:25.616+0530	INFO	[index-management]	idxmgmt/std.go:289	Loaded index template.
+2019-10-21T17:39:25.616+0530	INFO	pipeline/output.go:105	Connection to backoff(elasticsearch(http://localhost:9200)) established
+2019-10-21T17:39:26.591+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:27.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:28.593+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:29.593+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:30.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:31.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:32.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:33.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:34.591+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:35.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:36.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:37.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:38.591+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:39.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:40.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:41.591+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:42.593+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:43.591+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:44.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:45.591+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:46.592+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:47.591+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:48.591+0530	INFO	beater/dummybeat.go:79	Event sent
+2019-10-21T17:39:49.493+0530	INFO	[monitoring]	log/log.go:153	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":171,"time":{"ms":171}},"total":{"ticks":249,"time":{"ms":249},"value":249},"user":{"ticks":78,"time":{"ms":78}}},"handles":{"open":262},"info":{"ephemeral_id":"cda9b57e-b6a7-42a9-8421-eb1180326327","uptime":{"ms":28620}},"memstats":{"gc_next":4918240,"memory_alloc":3488384,"memory_total":9065608,"rss":27385856},"runtime":{"goroutines":12}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":24,"batches":15,"total":24},"read":{"bytes":6169},"type":"elasticsearch","write":{"bytes":17622}},"pipeline":{"clients":0,"events":{"active":1,"published":25,"retry":1,"total":25},"queue":{"acked":24}}},"system":{"cpu":{"cores":8}}}}}
+2019-10-21T17:39:49.493+0530	INFO	[monitoring]	log/log.go:154	Uptime: 28.6220354s
+2019-10-21T17:39:49.493+0530	INFO	[monitoring]	log/log.go:131	Stopping metrics logging.
+2019-10-21T17:39:49.494+0530	INFO	instance/beat.go:457	dummybeat stopped.
